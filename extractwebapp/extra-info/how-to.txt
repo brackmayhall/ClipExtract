@@ -1,0 +1,13 @@
+50
+{"_id":-1}
+{_id : { "$lt" : ObjectId("571004c7af1c6e10e0228191")} , "type": "ps" }
+ db.tweets.find( {_id : { "$lt" : <50th _id> } } ).limit(50).sort({"_id":-1});
+ 
+ 
+ 
+ http://www.baeldung.com/spring-requestmapping
+ 
+ 
+ http://localhost:8080/ExtractWebApp/clips/pc?count=123
+ 
+ 571004c7af1c6e10e0228191
